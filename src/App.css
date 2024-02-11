@@ -1,38 +1,200 @@
-.App {
-  text-align: center;
+/* *{
+    border: 1px solid red;
+} */
+
+#main{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(216, 211, 211, 0.834);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    width: 225px;
+    min-height: 575px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header{
+    text-align: center;
+    color: rgb(83, 76, 93);
+    font-size: 15px;
+    margin-top: 15px;
+    
+}
+#header>h1{
+    margin-top: 0px;
+}
+#balance>p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: x-small;
+}
+#balance>h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#analyse{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+#analyse>div{
+    width: 50%;
+    padding-top: 2px;
+    box-shadow: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#incre{
+    text-align: center;
+    height: 50px;
+    border-right: 1px solid rgb(79, 75, 75);
+}
+#decre{
+    text-align: center;
+    height: 50px;
+}
+.income{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-size: small;
+}
+.expense{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-size: small;
+}
+.inamo{
+    margin-top: 0px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(14, 239, 44);
+}
+.deamo{
+    margin-top: 0px;
+    font-size: large;
+    font-weight: bold;
+    color: red;
 }
 
-.App-link {
-  color: #61dafb;
+.history{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.hisheading{
+    height: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(166, 161, 161);
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+
+}
+.hisblocksneg{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid rgb(95, 93, 93);
+    border-radius: 5px;
+    border-right: none;
+
+}
+.hisblockspos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid rgb(95, 93, 93);
+    border-radius: 5px;
+    border-right: none;
+
+}
+.hisblocksneg>p{
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 23px;
+    padding-top: 3px;
+    padding-bottom: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hisblockspos>p{
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 23px;
+    padding-top: 3px;
+    padding-bottom: 0px;
 }
+
+.hisblocksneg>span{
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 23px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    text-align: end;
+    border-right: 5px solid red;
+    border-radius: 3px;
+    padding-right: 2px;
+}
+
+.hisblockspos>span{
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 23px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    text-align: end;
+    border-right: 5px solid rgb(0, 248, 0);
+    border-radius: 3px;
+    padding-right: 2px;
+}
+
+.formhead{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+form{
+    position: relative;
+}
+form>h4{
+    margin-bottom: 0px;
+}
+#negpos{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+form>input{
+    width: 98%;
+
+   
+}
+
+#btn{
+    width: 100%;
+    background-color: rgb(136, 59, 243);
+    color: white;
+    height: 30px;
+    /* margin-left: 1.5px; */
+    
+}
+.inputtext{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.inputamo{
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+    
+
+
+
